@@ -1,0 +1,36 @@
+<body style="font-family: 'Roboto Mono', monospace;background-color: #181820;" class="text-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white href="#">TO-BE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-secondary me-2" type="submit"><a class="text-white" href="company-login.html" style="text-decoration: none;">LOGIN</a></button>
+                    <button class="btn btn-outline-secondary me-2" type="submit"><a class="text-white" href="company-signup.html" style="text-decoration: none;">SIGNUP</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container p-5">
+            <div class="row p-5">
+                <h5 class="text-center">Post Jobs and Vacancies</h5>
+                <form>
+                    <div class="form-group mt-3">
+                        <label for="exampleInputEmail1">COMPANY NAME</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Company name">
+                    </div>
+                    <!-- Rest of the form elements -->
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- Remaining HTML code for "Previously Posted Jobs" section -->
+    </section>
+</body>
